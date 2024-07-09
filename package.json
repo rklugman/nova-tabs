@@ -29,5 +29,13 @@
     },
     "dependencies": {
         "vue": "^3"
+    },
+    "overrides": {
+        "@inertiajs/inertia": {
+            "axios": "^0.28.1"
+        },
+        "form-backend-validation": {
+            "axios": "^0.28.1"
+        }
     }
 }
